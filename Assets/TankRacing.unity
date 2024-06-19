@@ -2560,3 +2560,4 @@ MonoBehaviour:
   - {fileID: 1392140848}
   - {fileID: 1379519574}
   speed: 10
+  rotSpeed: 2
