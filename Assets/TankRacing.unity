@@ -1435,6 +1435,31 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &2713447972708953233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2713447972708953232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be9dc2fe21406c64c8c87c7ebb37dc95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 279012685}
+  - {fileID: 1107826490}
+  - {fileID: 1093827182}
+  - {fileID: 1739155440}
+  - {fileID: 1740024231}
+  - {fileID: 1725738158}
+  - {fileID: 2048627911}
+  - {fileID: 434642293}
+  - {fileID: 1392140848}
+  - {fileID: 1379519574}
+  speed: 10
+  rotSpeed: 2
 --- !u!33 &2906081035041282102
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2366,6 +2391,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &7863693248642204185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6591627735941132299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be9dc2fe21406c64c8c87c7ebb37dc95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 279012685}
+  - {fileID: 1107826490}
+  - {fileID: 1093827182}
+  - {fileID: 1739155440}
+  - {fileID: 1740024231}
+  - {fileID: 1725738158}
+  - {fileID: 2048627911}
+  - {fileID: 434642293}
+  - {fileID: 1392140848}
+  - {fileID: 1379519574}
+  speed: 10
+  rotSpeed: 2
 --- !u!4 &7871142010654116010
 Transform:
   m_ObjectHideFlags: 0
@@ -2381,6 +2431,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &7871142010654116011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6584456359551941305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be9dc2fe21406c64c8c87c7ebb37dc95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 279012685}
+  - {fileID: 1107826490}
+  - {fileID: 1093827182}
+  - {fileID: 1739155440}
+  - {fileID: 1740024231}
+  - {fileID: 1725738158}
+  - {fileID: 2048627911}
+  - {fileID: 434642293}
+  - {fileID: 1392140848}
+  - {fileID: 1379519574}
+  speed: 10
+  rotSpeed: 2
 --- !u!4 &8076435781734483058
 Transform:
   m_ObjectHideFlags: 0

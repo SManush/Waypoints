@@ -8,7 +8,7 @@ public class FollowWaypoints : MonoBehaviour
     int currentWP = 0; //to keep track of which waypoint we're on
 
     public float speed = 10.0f;
-    public float rotSpeed = 10.0f;
+    public float rotSpeed = 10.0f; //2
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +28,7 @@ public class FollowWaypoints : MonoBehaviour
 
         //this.transform.LookAt(waypoints[currentWP].transform);
 
+        //make character look at the location
         Quaternion lookatWP = Quaternion.LookRotation(waypoints[currentWP].transform.position - this.transform.position);
         this.transform.rotation = Quaternion.Slerp(this.transform.rotation, lookatWP, rotSpeed * Time.deltaTime);
 
